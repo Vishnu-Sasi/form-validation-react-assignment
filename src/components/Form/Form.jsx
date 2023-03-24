@@ -17,7 +17,7 @@ const Form = () => {
   const handleClick = (e) => {
     e.preventDefault();
     console.log(state.name, state.feedback);
-    if (state.name.length < 2) {
+    if (state.name.length <= 2) {
       setErr("Must be greater than 2 characters");
     } else {
       setErr("");
