@@ -69,14 +69,13 @@ const Form = () => {
             ></textarea>
             <input type="submit" className="button" onClick={handleClick} />
             <button className="button" onClick={handlePopUp}>
-              {" "}
               close
             </button>
           </form>
         </div>
-      ) : (
-        ""
-      )}
+      ) : ""
+      }
+      
     </div>
   );
 };
